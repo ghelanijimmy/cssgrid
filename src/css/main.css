@@ -320,3 +320,6 @@ p.none span {
   align-self: center;
   justify-self: center;
 }
+* {
+  color: #666;
+}
