@@ -353,6 +353,9 @@ section.wrapper > nav {
 section.wrapper > nav a {
   flex-basis: 25%;
   text-align: center;
+  box-sizing: border-box;
+  margin: 0 2%;
+  padding: 1%;
 }
 
 section.wrapper footer {
