@@ -323,3 +323,50 @@ p.none span {
 * {
   color: #666;
 }
+
+
+/*****GRID PAGE*****/
+section.logo {
+  padding: 20px 0;
+}
+section.logo img {
+  display: block;
+  margin: auto;
+}
+section.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  margin: 0 auto;
+  width: 95%;
+  grid-gap: 5%;
+}
+
+section.wrapper > *{
+  border: 1px solid black
+}
+
+section.wrapper > nav {
+  display: flex;
+}
+
+section.wrapper > nav a {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+section.wrapper footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 2%;
+  -moz-column-gap: 2%;
+  column-gap: 2%;
+}
+
+section.wrapper footer > div {
+  border: 1px solid black;
+}
+
+section.wrapper footer > div h3 {
+  text-align: center;
+}
